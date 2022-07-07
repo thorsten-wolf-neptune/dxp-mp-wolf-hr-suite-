@@ -1,0 +1,27 @@
+{
+  "name": "@thorsten-wolf-neptune/dxp-mp-wolf-hr-suite",
+  "version": "0.0.1",
+  "description": "HR Suite",
+  "main": "index.js",
+  "scripts": {
+    "publish:test": "npm publish --dry-run",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorsten-wolf-neptune/dxp-mp-wolf-hr-suite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thorsten-wolf-neptune/dxp-mp-wolf-hr-suite/issues"
+  },
+  "homepage": "https://github.com/thorsten-wolf-neptune/dxp-mp-wolf-hr-suite#readme",
+  "peerDependencies": {
+    "SAP_BASIS": "700",
+    "SAP_HR": "600",
+    "neptune-dxp-sap-edition": "21.10.0005",
+    "neptune-dxp-open-edition": "21.10.0005",
+    "@thorsten-wolf-neptune/dxp-mp-wolf-utilities": "0.1.1"
+  }
+}
